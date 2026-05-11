@@ -147,8 +147,8 @@ elif page == "🎯 Predict":
             st.plotly_chart(make_gauge(prob, "Top-10 Probability"), use_container_width=True)
         with g2:
             verdict = "✅ TOP 10" if resp["top10_prediction"] else "❌ Outside Top 10"
-            st.markdown(f"### Verdict
-# {verdict}")
+            st.markdown(f"""### Verdict
+# {verdict}""")
             st.metric("Confidence", resp.get("confidence", "—"))
             st.metric("Model", resp.get("model_version", "—"))
         with g3:
