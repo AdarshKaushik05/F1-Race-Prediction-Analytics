@@ -9,21 +9,21 @@ shap==0.44.1
 joblib==1.4.2
 
 # API
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
-python-multipart==0.0.7
+#fastapi==0.109.0
+#uvicorn[standard]==0.27.0
+#pydantic==2.5.3
+#python-multipart==0.0.7
 
 # Frontend
-streamlit==1.35.0
-plotly==5.22.0
+streamlit==1.31.0
+plotly==5.18.0
 matplotlib==3.8.4
 seaborn==0.13.2
-Pillow==10.3.0
+#Pillow==10.3.0
 
 # Data
 requests==2.31.0
 fastf1==3.3.3
 
 # Utils
-python-dotenv==1.0.1
+#python-dotenv==1.0.1
