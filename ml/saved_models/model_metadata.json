@@ -1,0 +1,65 @@
+{
+  "model_name": "LogisticRegression",
+  "version": "v1.0.0",
+  "trained_at": "2026-05-11T19:47:54.696375",
+  "feature_names": [
+    "grid_position",
+    "q1_time_seconds",
+    "q2_time_seconds",
+    "q3_time_seconds",
+    "pit_stop_count",
+    "avg_lap_time",
+    "wet_race",
+    "season",
+    "round_number",
+    "team_encoded",
+    "track_encoded",
+    "weather_encoded",
+    "driver_code_encoded",
+    "driver_consistency_score",
+    "team_performance_score",
+    "avg_finish_last5",
+    "qualifying_delta",
+    "track_avg_finish",
+    "prev_finish",
+    "team_strength"
+  ],
+  "metrics": {
+    "accuracy": 0.8509,
+    "precision": 0.8897,
+    "recall": 0.8012,
+    "f1": 0.8431,
+    "roc_auc": 0.9364,
+    "cv_roc_auc_mean": 0.9243,
+    "cv_roc_auc_std": 0.0112
+  },
+  "all_results": {
+    "LogisticRegression": {
+      "accuracy": 0.8509,
+      "precision": 0.8897,
+      "recall": 0.8012,
+      "f1": 0.8431,
+      "roc_auc": 0.9364,
+      "cv_roc_auc_mean": 0.9243,
+      "cv_roc_auc_std": 0.0112
+    },
+    "RandomForest": {
+      "accuracy": 0.8385,
+      "precision": 0.8539,
+      "recall": 0.8168,
+      "f1": 0.8349,
+      "roc_auc": 0.9302,
+      "cv_roc_auc_mean": 0.9193,
+      "cv_roc_auc_std": 0.0111
+    },
+    "XGBoost": {
+      "accuracy": 0.8276,
+      "precision": 0.8459,
+      "recall": 0.8012,
+      "f1": 0.823,
+      "roc_auc": 0.9194,
+      "cv_roc_auc_mean": 0.9178,
+      "cv_roc_auc_std": 0.0114
+    }
+  }
+}
