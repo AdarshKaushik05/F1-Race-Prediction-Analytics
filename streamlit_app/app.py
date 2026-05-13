@@ -8,6 +8,8 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
+# ── Import needed for Model Insights subplots ─────────────────
+from plotly.subplots import make_subplots
 from pathlib import Path
 
 # ── Page Config ───────────────────────────────────────────────
@@ -734,7 +736,3 @@ with `Q1 + offset` so the FeatureEngineer can compute the qualifying delta corre
         use_container_width=True,
         hide_index=True,
     )
-
-
-# ── Import needed for Model Insights subplots ─────────────────
-from plotly.subplots import make_subplots
