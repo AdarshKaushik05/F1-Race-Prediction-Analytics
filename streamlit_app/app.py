@@ -41,7 +41,7 @@ st.markdown("""<style>
 </style>""", unsafe_allow_html=True)
 
 # ── Constants (real FastF1 data) ──────────────────────────────
-API_URL = "http://localhost:8000"
+API_URL = "https://f1-race-prediction-analytics.onrender.com"
 
 # All 40 unique drivers that appeared 2018–2025 in the FastF1 dataset
 DRIVERS = [
