@@ -1,20 +1,21 @@
-# Multi-stage Docker build for F1 Race Predictor
-FROM python:3.11-slim as base
+# Use a slim Python image
+FROM python:3.11-slim
 
+# Set the working directory
 WORKDIR /app
+
+# Prevent Python from writing .pyc files and enable unbuffered logging
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 
+# Copy requirements and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy the entire project
 COPY . .
 
-# Stage: API
-FROM base as api
-EXPOSE 8000
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Render uses port 10000 for its web services
+EXPOSE 10000
 
-# Stage: Streamlit
-FROM base as dashboard
-EXPOSE 8501
-CMD ["streamlit", "run", "streamlit_app/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Command to start the FastAPI "Brain"
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "10000"]
