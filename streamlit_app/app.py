@@ -189,7 +189,7 @@ def simulate_prediction(driver: str, team: str, grid: int,
 def call_api(payload: dict) -> dict:
     """Call FastAPI backend with fallback to local simulation."""
     try:
-        resp = requests.post(f"{API_URL}/predict", json=payload, timeout=4)
+        resp = requests.post(f"{API_URL}/predict", json=payload, timeout=60)
         resp.raise_for_status()
         result = resp.json()
         result["source"] = "api"
