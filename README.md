@@ -11,6 +11,8 @@
 > using **real Formula 1 telemetry data** via the FastF1 library — covering qualifying times,
 > pit stops, lap times, weather conditions, and race results across multiple seasons.
 
+
+**🚀 [Click here to launch the Live Web Application!]https://f1-race-prediction-analytics-gbhmwgmmai3csko5lc7hbj.streamlit.app/**
 ---
 
 <div align="center">
