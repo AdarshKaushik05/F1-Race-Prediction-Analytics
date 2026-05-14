@@ -17,7 +17,10 @@
 
 | Dashboard Home | Prediction | Driver Analytics |
 |---|---|---|
-| ![home](docs/home.png) | ![predict](docs/predict.png) | ![driver](docs/driver.png) |
+| <img width="1919" height="1010" alt="Screenshot 2026-05-15 025635" src="https://github.com/user-attachments/assets/6ce316f5-2b6f-4d31-b3a4-2f75d1cc6f16" />
+ | <img width="1919" height="1014" alt="Screenshot 2026-05-15 025955" src="https://github.com/user-attachments/assets/e65c835f-7bee-45e3-a567-887b5e0e0ddd" />
+ | <img width="1919" height="1007" alt="Screenshot 2026-05-15 041835" src="https://github.com/user-attachments/assets/2a2fcf52-2227-4165-9407-3b8e97554320" />
+ |
 
 ---
 
