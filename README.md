@@ -12,8 +12,8 @@
 > pit stops, lap times, weather conditions, and race results across multiple seasons.
 
 
-**🚀 [Click here to launch the Live Web Application!]https://f1-race-prediction-analytics-gbhmwgmmai3csko5lc7hbj.streamlit.app/**
----
+*🚀 [Click here to launch the Live Web Application!]https://f1-race-prediction-analytics-gbhmwgmmai3csko5lc7hbj.streamlit.app/*
+
 
 <div align="center">
   <h2>📸 System Snapshots</h2>
