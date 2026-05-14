@@ -13,14 +13,20 @@
 
 ---
 
-## 📸 Screenshots
+<div align="center">
+  <h2>📸 System Snapshots</h2>
 
- | Dashboard Home |
- <img width="1919" height="1010" alt="Screenshot 2026-05-15 025635" src="https://github.com/user-attachments/assets/6ce316f5-2b6f-4d31-b3a4-2f75d1cc6f16" />
- | Prediction |
- <img width="1919" height="1014" alt="Screenshot 2026-05-15 025955" src="https://github.com/user-attachments/assets/e65c835f-7bee-45e3-a567-887b5e0e0ddd" />
- | Driver Analytics |
- <img width="1919" height="1007" alt="Screenshot 2026-05-15 041835" src="https://github.com/user-attachments/assets/2a2fcf52-2227-4165-9407-3b8e97554320" />
+  <h3>Dashboard Home</h3>
+  <img src="https://github.com/user-attachments/assets/6ce316f5-2b6f-4d31-b3a4-2f75d1cc6f16" width="800" alt="Dashboard Home" />
+  <br><br>
+
+  <h3>Prediction Engine</h3>
+  <img src="https://github.com/user-attachments/assets/e65c835f-7bee-45e3-a567-887b5e0e0ddd" width="800" alt="Prediction" />
+  <br><br>
+
+  <h3>Driver Analytics</h3>
+  <img src="https://github.com/user-attachments/assets/2a2fcf52-2227-4165-9407-3b8e97554320" width="800" alt="Driver Analytics" />
+</div>
  
 
 ---
